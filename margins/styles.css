@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
+#one {
+  margin: 0px auto;
+  border-width: 10px;
+  border-color: bisque;
+  border-style: inset;
+}
+#two {
+  margin: 0px auto;
+  border-width: 10px;
+  border-color: bisque;
+  border-style: inset;
+}
+img {
+  width: 150px;
+  border: 10px solid black;
+  border-width: 10px;
+  border-color: bisque;
+  border-style: inset;
+  margin: 3% 30px;
+}
