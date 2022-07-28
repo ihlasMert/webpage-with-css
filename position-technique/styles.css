@@ -1,0 +1,15 @@
+body {
+    font-family: Futura;
+}
+
+h1 {
+    color: #B33C86;
+    border: 10px solid #B33C86;
+    padding: 4%;
+}
+
+p {
+    color: #190E4F;
+    border: 5px solid #190E4F;
+    padding: 10%;
+}
