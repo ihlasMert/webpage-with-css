@@ -1,0 +1,26 @@
+#one {
+  width: thin;
+  color: blue;
+}
+
+#two {
+  border-width: 10px;
+  border-style: double;
+  border-color: aquamarine;
+}
+
+#three {
+  border-width: 40px;
+  border-color: bisque;
+  border-style: inset;
+}
+
+p {
+  margin-top: 32px;
+  display: inline;
+  font-size: 30px;
+  margin: 34px;
+}
+body {
+  margin-top: 32em;
+}
