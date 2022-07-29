@@ -1,0 +1,23 @@
+* {
+  font-size: 20px;
+  color: wheat;
+  text-align: center;
+}
+#container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+}
+
+header{
+    background-color: red;
+
+}
+#a{
+    background-color: blue;
+}
+#b{
+    background-color: yellow;
+}
+footer{
+    background-color: greenyellow;
+}
