@@ -10,8 +10,8 @@
 .container {
   /*   ADD GRID RULES HERE */
   display: grid;
-  grid-template: repeat(3, 1.3em) / repeat(3, 1.6em);
-  grid-gap: 5em auto;
+  grid-template: repeat(3, 1.3em) / repeat(5, 10fr);
+  grid-gap: 10px
 }
 
 .container div:nth-child(1),
