@@ -6,18 +6,28 @@
 #container {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  grid-template-areas:
+"h h h h"
+"a a a b"
+"f f f f"  
+;
+  
 }
 
 header{
+    grid-area: h;
     background-color: red;
 
 }
-#a{
+section#a{
+    grid-area: a;
     background-color: blue;
 }
-#b{
+section#b{
+    grid-area: b;
     background-color: yellow;
 }
 footer{
+    grid-area: f;
     background-color: greenyellow;
 }

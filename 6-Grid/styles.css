@@ -3,15 +3,23 @@
   font-size: 1.4em;
   color: white;
   text-align: center;
-  padding: 0;
-  margin: 0%;
+
 }
+/* <!-- 
+display:grid;
+grid-template-columns: sütün sayısı 200px 200px 200px 200px genişliğine
+grid-template-row: sıra içinin boyunu -dikliğine
+grid-auto-rows:son kalan şeyleri otamatik birleştirir
+grid-gap: araya boşluk koyar
+Fraction unit:eşit derecede yapmak için
+
+ --> */
 
 .container {
   /*   ADD GRID RULES HERE */
-  display: grid;
-  grid-template: repeat(3, 1.3em) / repeat(5, 10fr);
-  grid-gap: 10px
+ display: grid;
+  grid-template-columns: 40% 50% 20%;
+  grid-template-rows: 5em 1.6em 5.6em;
 }
 
 .container div:nth-child(1),
@@ -34,5 +42,11 @@ div:nth-child(8) {
 }
 
 .container div:nth-child(5) {
+  background-color: #c490d1;
+}
+.container div:nth-child(9) {
+  background-color: #c490d1;
+}
+.container div:nth-child(10) {
   background-color: #c490d1;
 }
