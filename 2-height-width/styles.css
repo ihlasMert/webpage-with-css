@@ -1,0 +1,24 @@
+body {
+    font-family: Avenir, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0px auto;
+    min-width: 300px;
+    max-width: 800px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    background-color: #ea0909;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 12px auto;
+    width: 50%;
+  
+  }
+  
